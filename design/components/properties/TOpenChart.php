@@ -17,6 +17,24 @@ $result[] = array(
                   );
 
 $result[] = array(
+                    'CAPTION'=>t('Offset'),
+                    'TYPE'=>'number',
+                    'PROP'=>'offset',
+                );
+
+$result[] = array(
+                    'CAPTION'=>t('Show value'),
+                    'TYPE'=>'check',
+                    'PROP'=>'showval',
+                );
+
+$result[] = array(
+                    'CAPTION'=>t('Value width'),
+                    'TYPE'=>'number',
+                    'PROP'=>'valueWidth',
+                );
+
+$result[] = array(
                   'CAPTION'=>t('Color'),
                   'TYPE'=>'color',
                   'PROP'=>'color',
