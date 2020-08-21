@@ -39,11 +39,6 @@ $result[] = array(
                   'INLINE'=>'invalidate ( void )',
                   );
 
-$result[] = array(
-                  'CAPTION'=>t('Repaint'),
-                  'PROP'=>'repaint()',
-                  'INLINE'=>'repaint ( void )',
-                  );
 
 $result[] = array(
                   'CAPTION'=>t('Perform'),
@@ -73,11 +68,5 @@ $result[] = array(
                   'CAPTION'=>t('Add new value'),
                   'PROP'=>'addNewValue()',
                   'INLINE'=>'addNewValue ( int $value )',
-                  );
-                  
-$result[] = array(
-                  'CAPTION'=>t('Set Chart Color'),
-                  'PROP'=>'setGraphColor()',
-                  'INLINE'=>'setGraphColor ( int $color )',
                   );
 return $result;
