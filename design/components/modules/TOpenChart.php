@@ -38,9 +38,9 @@ class TOpenChart extends TScrollBox {
                 $GLOBALS["__openteechartlabelval"][intval($this->self)]->parent = $this;
                 $GLOBALS["__openteechartlabelval"][intval($this->self)]->font->name = "Segoe UI";
                 $GLOBALS["__openteechartlabelval"][intval($this->self)]->font->size = 9;
-                $GLOBALS["__openteechartlabelval"][intval($this->self)]->font->color = $this->graphColor;
                 $GLOBALS["__openteechartlabelval"][intval($this->self)]->autoSize = true;
             }
+            $GLOBALS["__openteechartlabelval"][intval($this->self)]->font->color = $this->graphColor;
             $GLOBALS["__openteechartlabelval"][intval($this->self)]->x = $GLOBALS["__openteechartx"][intval($this->self)] + 8;
             
         }
