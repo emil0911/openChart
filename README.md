@@ -1,5 +1,5 @@
 # TOpenChart
-Open implementation of TChart, named TOpenChart. Created for DevelStudio 3.0 Environment.
+Open implementation of chart, named TOpenChart. Created for DevelStudio 3.0 Environment.
 
 ### Thanks to
 Silk Icon Project for icon
